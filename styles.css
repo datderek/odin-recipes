@@ -1,4 +1,73 @@
+html, body {
+    height: 100%
+}
 body {
-    background-color: rgb(255. 204, 204);
+    margin-top: 0;
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: mediumseagreen;
+    font-family: Arial, sans-serif;
 }
 
+.background-design {
+    background-image: repeating-linear-gradient(
+        45deg,
+        #ffcccc, 
+        #ffcccc 10px, 
+        #ff8080 10px, 
+        #ff8080 11px
+    );
+}
+
+h1 {
+    font-size: 72px;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+}
+
+.wrapper, #gfinchefhat {
+    border-radius: 15px;
+    border: 3px solid mediumseagreen;
+}
+
+.wrapper {
+    background-color: #FBFAF5;
+    margin: auto;
+    margin-top: 10px;
+    width: 450px;
+    padding: 2px;
+    height: 200px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.recipebox {
+    background-color: white;
+    width: 500px;
+    height: 100px;
+}
+
+#gfinchefhat {
+    height: auto;
+    width: 600px;
+}
+
+.fade-in-title {
+    animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
